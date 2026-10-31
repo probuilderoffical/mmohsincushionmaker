@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>M Mohsin Cushion Maker | Custom Cushions in Karachi</title>
+<meta name="description" content="M Mohsin Cushion Maker, Nazimabad No. 4, Liaquatabad Town, Karachi. Made-to-measure cushions, sofa cushions and upholstery work. Open 24 hours.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --deep:#17302f;--deep2:#214644;--brand:#b4492f;--gold:#e0ae4c;
+  --bg:#fbf5ea;--bg2:#f3e9d6;--card:#ffffff;--text:#222b2b;--muted:#5d6a69;--line:#e6d9bf;
+  --serif:"Playfair Display",Georgia,"Times New Roman",serif;
+  --sans:"Inter",system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){--bg:#0f1a1a;--bg2:#142323;--card:#1a2d2c;--text:#f2ece0;--muted:#b3bfbd;--line:#2b4543;color-scheme:dark}
+}
+:root[data-theme="dark"]{--bg:#0f1a1a;--bg2:#142323;--card:#1a2d2c;--text:#f2ece0;--muted:#b3bfbd;--line:#2b4543;color-scheme:dark}
+*{box-sizing:border-box;margin:0;padding:0}
+:root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+html{scroll-behavior:smooth;scroll-padding-top:calc(84px + env(safe-area-inset-top,0px));-webkit-text-size-adjust:100%}
+body{font-family:var(--sans);background:var(--bg);color:var(--text);line-height:1.65;font-size:16px;overflow-x:hidden}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--deep);z-index:60}
+svg{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+.wrap{width:min(1160px,100% - 40px);margin-inline:auto}
+section{padding:88px 0}
+.eyebrow{font-size:.78rem;letter-spacing:.22em;text-transform:uppercase;color:var(--brand);font-weight:600;margin-bottom:14px}
+h1,h2,h3{font-family:var(--serif);line-height:1.15;font-weight:600}
+h2{font-size:clamp(1.9rem,4.4vw,2.9rem);margin-bottom:16px}
+.lead{color:var(--muted);max-width:620px}
+.center{text-align:center}.center .lead{margin-inline:auto}
+.btn{display:inline-flex;align-items:center;gap:10px;padding:14px 26px;border-radius:999px;font-weight:600;font-size:.95rem;border:1.5px solid transparent;cursor:pointer;font-family:inherit;transition:transform .35s ease,box-shadow .35s ease,background .35s ease,color .35s ease}
+.btn svg{width:18px;height:18px}
+.btn-brand{background:linear-gradient(135deg,#d2603f,var(--brand));color:#fff;box-shadow:0 8px 22px rgba(180,73,47,.35)}
+.btn-brand:hover{transform:translateY(-3px);box-shadow:0 14px 30px rgba(180,73,47,.45)}
+.btn-line{border-color:rgba(255,255,255,.5);color:#fff}
+.btn-line:hover{background:#fff;color:var(--deep);transform:translateY(-3px)}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:50;background:rgba(23,48,47,.94);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-bottom:1px solid rgba(224,174,76,.25)}
+.nav{display:flex;align-items:center;justify-content:space-between;height:72px}
+.brand{display:flex;align-items:center;gap:12px;color:#fff}
+.brand svg{width:44px;height:44px;flex:none}
+.brand b{font-family:var(--serif);font-size:1.15rem;display:block;line-height:1.05}
+.brand small{display:block;font-size:.6rem;letter-spacing:.28em;color:var(--gold);margin-top:4px}
+nav ul{display:flex;gap:28px;list-style:none;align-items:center}
+nav a.l{color:#e3ece9;font-size:.92rem;position:relative;padding:6px 0;transition:color .3s}
+nav a.l::after{content:"";position:absolute;left:0;bottom:0;height:2px;width:0;background:var(--gold);transition:width .35s ease}
+nav a.l:hover::after{width:100%}
+.burger{display:none;background:none;border:0;width:44px;height:44px;cursor:pointer;color:#fff}
+.burger svg{width:26px;height:26px;margin:auto}
+@media(max-width:860px){
+  .burger{display:block}
+  nav{position:absolute;left:0;right:0;top:72px;background:var(--deep);max-height:0;overflow:hidden;transition:max-height .45s ease}
+  nav.open{max-height:440px;border-bottom:1px solid rgba(224,174,76,.25)}
+  nav ul{flex-direction:column;gap:0;padding:8px 20px 20px;align-items:stretch}
+  nav li{border-bottom:1px solid rgba(255,255,255,.08)}
+  nav a.l{display:block;padding:15px 0}
+  nav .btn{margin-top:16px;width:100%;justify-content:center}
+}
+.hero{position:relative;color:#fff;background:radial-gradient(900px 500px at 85% 20%,#2f625e 0%,transparent 62%),linear-gradient(160deg,var(--deep),#0f2120);overflow:hidden;padding:80px 0 90px}
+.hero .wrap{display:grid;grid-template-columns:1.05fr 1fr;gap:40px;align-items:center}
+@media(max-width:900px){.hero .wrap{grid-template-columns:1fr}.hero{padding:56px 0 64px}}
+.hero h1{font-size:clamp(2.4rem,6.4vw,4.4rem);margin-bottom:20px}
+.hero h1 em{font-style:italic;color:var(--gold)}
+.hero p.t{color:#d3e0dd;max-width:520px;font-size:1.06rem;margin-bottom:30px}
+.cta{display:flex;flex-wrap:wrap;gap:14px}
+.badges{display:flex;flex-wrap:wrap;gap:10px;margin-top:30px}
+.badge{display:flex;align-items:center;gap:8px;font-size:.82rem;color:#d3e0dd;border:1px solid rgba(255,255,255,.18);padding:8px 14px;border-radius:999px;background:rgba(255,255,255,.05)}
+.badge svg{width:16px;height:16px;stroke:var(--gold);fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.art{position:relative}
+.art .sofa{width:100%;height:auto;filter:drop-shadow(0 30px 40px rgba(0,0,0,.35))}
+.c1{animation:bob 6s ease-in-out infinite}.c2{animation:bob 7s ease-in-out -2s infinite}.c3{animation:bob 8s ease-in-out -4s infinite}
+@keyframes bob{50%{transform:translateY(-8px)}}
+.ring{position:absolute;border-radius:50%;border:1px solid rgba(224,174,76,.35);animation:spin 40s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.grid{display:grid;gap:22px;margin-top:48px}
+.g3{grid-template-columns:repeat(3,1fr)}.g4{grid-template-columns:repeat(4,1fr)}
+@media(max-width:960px){.g3,.g4{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:560px){.g3,.g4{grid-template-columns:1fr}section{padding:66px 0}}
+.card{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:28px 24px;transition:transform .45s ease,box-shadow .45s ease,border-color .45s ease}
+.card:hover{transform:translateY(-8px);box-shadow:0 22px 44px rgba(23,48,47,.16);border-color:var(--brand)}
+.ico{width:54px;height:54px;border-radius:16px;background:linear-gradient(135deg,var(--deep),var(--deep2));display:grid;place-items:center;margin-bottom:18px}
+.ico svg{width:26px;height:26px;stroke:var(--gold);fill:none;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+.card h3{font-size:1.35rem;margin-bottom:8px}.card p{color:var(--muted);font-size:.95rem}
+.alt{background:var(--bg2)}
+.tile{border-radius:22px;background:var(--card);border:1px solid var(--line);padding:18px 18px 16px;text-align:center;transition:transform .45s ease,box-shadow .45s ease}
+.tile:hover{transform:translateY(-8px) rotate(-1deg);box-shadow:0 22px 44px rgba(23,48,47,.16)}
+.tile svg{width:100%;height:auto;margin-bottom:8px}
+.tile b{font-family:var(--serif);font-size:1.1rem}.tile span{display:block;color:var(--muted);font-size:.85rem}
+.steps{counter-reset:s}
+.step{position:relative;padding-top:56px}
+.step::before{counter-increment:s;content:"0" counter(s);position:absolute;top:22px;left:24px;font-family:var(--serif);font-size:2.4rem;color:var(--brand);line-height:1}
+.contact{background:linear-gradient(160deg,var(--deep),#0f2120);color:#fff}
+.contact .lead{color:#d3e0dd}.contact .eyebrow{color:var(--gold)}
+.cwrap{display:grid;grid-template-columns:1fr 1.1fr;gap:48px;margin-top:44px}
+@media(max-width:860px){.cwrap{grid-template-columns:1fr}}
+.info{display:grid;gap:16px;align-content:start}
+.row{display:flex;gap:16px;align-items:center;padding:16px 18px;border:1px solid rgba(255,255,255,.14);border-radius:16px;background:rgba(255,255,255,.04);transition:border-color .35s,background .35s}
+.row:hover{border-color:var(--gold);background:rgba(255,255,255,.08)}
+.row .ico{margin:0;flex:none;background:rgba(224,174,76,.14)}
+.row small{display:block;color:#a9c0bc;font-size:.76rem;letter-spacing:.08em;text-transform:uppercase}
+.row b{font-weight:600;font-size:1rem;word-break:break-word}
+form{background:#fff;color:#222b2b;border-radius:22px;padding:30px 26px;display:grid;gap:16px}
+label{font-size:.82rem;font-weight:600;color:#4a5757;display:block;margin-bottom:6px}
+input,select,textarea{width:100%;padding:13px 15px;border:1.5px solid #e0d5bd;border-radius:12px;font:inherit;font-size:16px;background:#fdfaf3;color:#222b2b;transition:border-color .3s,box-shadow .3s}
+input:focus,select:focus,textarea:focus{outline:0;border-color:var(--brand);box-shadow:0 0 0 4px rgba(180,73,47,.16)}
+textarea{min-height:100px;resize:vertical}
+form .btn{justify-content:center;width:100%}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:16px}@media(max-width:520px){.two{grid-template-columns:1fr}}
+footer{background:#0b1717;color:#a9bcb9;padding:42px 0 30px;font-size:.9rem}
+.foot{display:flex;flex-wrap:wrap;gap:22px;justify-content:space-between;align-items:center}
+.note{margin-top:20px;padding-top:18px;border-top:1px solid rgba(255,255,255,.1);font-size:.8rem;color:#8aa09c}
+.wa{position:fixed;right:max(18px,env(safe-area-inset-right,0px));bottom:calc(18px + env(safe-area-inset-bottom,0px));width:58px;height:58px;border-radius:50%;background:linear-gradient(135deg,#d2603f,var(--brand));display:grid;place-items:center;z-index:55;box-shadow:0 10px 26px rgba(0,0,0,.3);transition:transform .35s}
+.wa:hover{transform:scale(1.08)}.wa svg{width:28px;height:28px;stroke:#fff;fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.ws{display:grid;grid-template-columns:1.1fr 1fr;gap:44px;align-items:center}@media(max-width:860px){.ws{grid-template-columns:1fr;gap:28px}}.ws svg,.ws img{width:100%;height:auto;border-radius:24px;box-shadow:0 24px 50px rgba(23,48,47,.2)}.ws ul{list-style:none;display:grid;gap:12px;margin-top:20px}.ws li{display:flex;gap:12px}.ws li svg{width:22px;height:22px;flex:none;margin-top:3px;box-shadow:none;border-radius:0;stroke:var(--brand);fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.rv{opacity:0;transform:translateY(26px);transition:opacity .9s ease,transform .9s ease;transition-delay:var(--d,0s)}
+.rv.in{opacity:1;transform:none}
+.hero .rv{animation:up 1s ease forwards;animation-delay:var(--d,0s);transition:none}
+@keyframes up{to{opacity:1;transform:none}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}.rv{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <pattern id="p1" width="22" height="22" patternUnits="userSpaceOnUse"><rect width="22" height="22" fill="#b4492f"/><rect width="11" height="22" fill="#d0694a"/></pattern>
+    <pattern id="p2" width="24" height="24" patternUnits="userSpaceOnUse"><rect width="24" height="24" fill="#214644"/><circle cx="6" cy="6" r="3" fill="#e0ae4c"/><circle cx="18" cy="18" r="3" fill="#e0ae4c"/></pattern>
+    <pattern id="p3" width="28" height="28" patternUnits="userSpaceOnUse"><rect width="28" height="28" fill="#f0e0c0"/><path d="M14 2l12 12-12 12L2 14z" fill="none" stroke="#b4492f" stroke-width="2.4"/></pattern>
+    <pattern id="p4" width="30" height="20" patternUnits="userSpaceOnUse"><rect width="30" height="20" fill="#2d5e5a"/><path d="M0 14l15-12 15 12" fill="none" stroke="#e8d3a0" stroke-width="2.4"/></pattern>
+    <pattern id="p5" width="26" height="26" patternUnits="userSpaceOnUse"><rect width="26" height="26" fill="#7a2f3d"/><circle cx="13" cy="13" r="7" fill="none" stroke="#e8b6a8" stroke-width="2"/><circle cx="13" cy="13" r="2.4" fill="#e8b6a8"/></pattern>
+    <radialGradient id="sh" cx=".35" cy=".3" r=".9"><stop offset="0" stop-color="#fff" stop-opacity=".28"/><stop offset=".6" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".3"/></radialGradient>
+    <symbol id="cs" viewBox="0 0 200 200"><path d="M22 30Q100 8 178 30Q192 100 178 170Q100 192 22 170Q8 100 22 30Z"/></symbol>
+    <symbol id="logo" viewBox="0 0 64 64">
+      <rect x="2" y="2" width="60" height="60" rx="16" fill="#b4492f"/>
+      <path d="M13 17Q32 11 51 17Q55 32 51 47Q32 53 13 47Q9 32 13 17Z" fill="#fff4de" stroke="#e0ae4c" stroke-width="2"/>
+      <path d="M20 40V25l6 8 6-8 6 8 6-8v15" fill="none" stroke="#17302f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="32" cy="47" r="0" fill="#17302f"/>
+    </symbol>
+  </defs>
+</svg>
+
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="#home" aria-label="M Mohsin Cushion Maker home">
+      <svg aria-hidden="true"><use href="#logo"/></svg>
+      <span><b>M Mohsin</b><small>CUSHION MAKER</small></span>
+    </a>
+    <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+    <nav id="nav" aria-label="Main">
+      <ul>
+        <li><a class="l" href="#services">Services</a></li>
+        <li><a class="l" href="#collection">Designs</a></li>
+        <li><a class="l" href="#process">Process</a></li>
+        <li><a class="l" href="#visit">Visit</a></li>
+        <li><a class="btn btn-brand" href="#contact">Get a Quote</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section class="hero" id="home">
+  <div class="wrap">
+    <div>
+      <p class="eyebrow rv" style="--d:.1s;color:var(--gold)">Cushion Maker | Nazimabad, Karachi</p>
+      <h1 class="rv" style="--d:.25s">Comfort, <em>made to measure</em> for your home.</h1>
+      <p class="t rv" style="--d:.4s">Custom cushions, sofa seat cushions and upholstery work, cut and stitched to your size, your fabric and your style.</p>
+      <div class="cta rv" style="--d:.55s">
+        <a class="btn btn-brand" href="#contact">Request a Quote</a>
+        <a class="btn btn-line" href="#collection">See Designs</a>
+      </div>
+      <div class="badges rv" style="--d:.7s">
+        <span class="badge"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>Open 24 hours</span>
+        <span class="badge"><svg viewBox="0 0 24 24"><path d="M12 21s7-6 7-11a7 7 0 10-14 0c0 5 7 11 7 11z"/></svg>Liaquatabad Town</span>
+        <span class="badge"><svg viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>Custom sizes</span>
+      </div>
+    </div>
+    <div class="art rv" style="--d:.3s">
+      <div class="ring" style="width:78%;aspect-ratio:1;left:11%;top:2%"></div>
+      <svg class="sofa" viewBox="0 0 520 400" aria-label="Illustration of a sofa with patterned cushions">
+        <ellipse cx="260" cy="352" rx="210" ry="18" fill="#000" opacity=".28"/>
+        <rect x="52" y="118" width="416" height="150" rx="34" fill="#2a5753"/>
+        <rect x="30" y="170" width="86" height="148" rx="30" fill="#337069"/>
+        <rect x="404" y="170" width="86" height="148" rx="30" fill="#337069"/>
+        <rect x="96" y="214" width="328" height="100" rx="26" fill="#3d8279"/>
+        <rect x="96" y="214" width="328" height="22" rx="11" fill="#fff" opacity=".1"/>
+        <path d="M260 214v100" stroke="#2a5753" stroke-width="3"/>
+        <rect x="64" y="318" width="14" height="34" rx="6" fill="#6b3a24"/><rect x="442" y="318" width="14" height="34" rx="6" fill="#6b3a24"/>
+        <g class="c1"><g transform="translate(112 110) rotate(-8) scale(.78)"><use href="#cs" width="200" height="200" fill="url(#p1)" stroke="#8c3622" stroke-width="3"/><use href="#cs" width="200" height="200" fill="url(#sh)"/><circle cx="100" cy="100" r="6" fill="#5e2517"/></g></g>
+        <g class="c2"><g transform="translate(232 96) scale(.8)"><use href="#cs" width="200" height="200" fill="url(#p3)" stroke="#c9ad78" stroke-width="3"/><use href="#cs" width="200" height="200" fill="url(#sh)"/><circle cx="100" cy="100" r="6" fill="#8a6a36"/></g></g>
+        <g class="c3"><g transform="translate(330 112) rotate(9) scale(.74)"><use href="#cs" width="200" height="200" fill="url(#p2)" stroke="#142f2d" stroke-width="3"/><use href="#cs" width="200" height="200" fill="url(#sh)"/><circle cx="100" cy="100" r="6" fill="#0f2220"/></g></g>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<section id="services">
+  <div class="wrap center">
+    <p class="eyebrow rv">What We Do</p>
+    <h2 class="rv">Cushions and upholstery, done properly</h2>
+    <p class="lead rv">Tell us the size, fabric and firmness you want. We make it to fit.</p>
+    <div class="grid g3" style="text-align:left">
+      <article class="card rv"><div class="ico"><svg viewBox="0 0 24 24"><path d="M5 6Q12 3 19 6Q21 12 19 18Q12 21 5 18Q3 12 5 6zM12 12h.01"/></svg></div><h3>Custom Cushions</h3><p>Square, round, bolster or floor cushions in the size and fill you choose.</p></article>
+      <article class="card rv" style="--d:.1s"><div class="ico"><svg viewBox="0 0 24 24"><path d="M4 11V8a3 3 0 013-3h10a3 3 0 013 3v3M3 11h18v6H3zM6 17v3M18 17v3"/></svg></div><h3>Sofa Seat Cushions</h3><p>Fresh foam and new covers for tired, flat or sagging sofa seats.</p></article>
+      <article class="card rv" style="--d:.2s"><div class="ico"><svg viewBox="0 0 24 24"><path d="M4 20l4-1L19 8a2.100 2.100 0 00-3-3L5 16zM14 7l3 3"/></svg></div><h3>Upholstery and Repair</h3><p>Re-covering and repair work to bring worn furniture back to life.</p></article>
+      <article class="card rv"><div class="ico"><svg viewBox="0 0 24 24"><path d="M3 7h18v10H3zM3 11h18M8 7v10"/></svg></div><h3>Covers and Fabric</h3><p>Choose from a range of fabrics and colours to match your room.</p></article>
+      <article class="card rv" style="--d:.1s"><div class="ico"><svg viewBox="0 0 24 24"><path d="M12 3v4M12 17v4M3 12h4M17 12h4M6 6l2.500 2.500M15.500 15.500L18 18M18 6l-2.500 2.500M8.500 15.500L6 18"/></svg></div><h3>Foam and Filling</h3><p>Pick the firmness you like, from soft and plush to firm and supportive.</p></article>
+      <article class="card rv" style="--d:.2s"><div class="ico"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></div><h3>Open 24 Hours</h3><p>Our WhatsApp Business line is open round the clock for enquiries.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="alt" id="collection">
+  <div class="wrap center">
+    <p class="eyebrow rv">Design Ideas</p>
+    <h2 class="rv">Patterns and styles to inspire</h2>
+    <p class="lead rv">A few of the looks you can ask for. Bring your own fabric or choose with us.</p>
+    <div class="grid g4">
+      <div class="tile rv"><svg viewBox="0 0 200 200"><ellipse cx="100" cy="184" rx="70" ry="8" fill="#000" opacity=".14"/><use href="#cs" width="200" height="200" fill="url(#p1)" stroke="#8c3622" stroke-width="3"/><use href="#cs" width="200" height="200" fill="url(#sh)"/><circle cx="100" cy="100" r="6" fill="#5e2517"/></svg><b>Terracotta Stripe</b><span>Warm and classic</span></div>
+      <div class="tile rv" style="--d:.1s"><svg viewBox="0 0 200 200"><ellipse cx="100" cy="184" rx="70" ry="8" fill="#000" opacity=".14"/><use href="#cs" width="200" height="200" fill="url(#p2)" stroke="#142f2d" stroke-width="3"/><use href="#cs" width="200" height="200" fill="url(#sh)"/><circle cx="100" cy="100" r="6" fill="#0f2220"/></svg><b>Gold Dot</b><span>Rich and elegant</span></div>
+      <div class="tile rv" style="--d:.2s"><svg viewBox="0 0 200 200"><ellipse cx="100" cy="184" rx="70" ry="8" fill="#000" opacity=".14"/><use href="#cs" width="200" height="200" fill="url(#p3)" stroke="#c9ad78" stroke-width="3"/><use href="#cs" width="200" height="200" fill="url(#sh)"/><circle cx="100" cy="100" r="6" fill="#8a6a36"/></svg><b>Diamond Cream</b><span>Light and airy</span></div>
+      <div class="tile rv" style="--d:.3s"><svg viewBox="0 0 200 200"><ellipse cx="100" cy="184" rx="70" ry="8" fill="#000" opacity=".14"/><use href="#cs" width="200" height="200" fill="url(#p4)" stroke="#1c403d" stroke-width="3"/><use href="#cs" width="200" height="200" fill="url(#sh)"/><circle cx="100" cy="100" r="6" fill="#14302e"/></svg><b>Teal Chevron</b><span>Modern and bold</span></div>
+      <div class="tile rv"><svg viewBox="0 0 200 200"><ellipse cx="100" cy="184" rx="70" ry="8" fill="#000" opacity=".14"/><use href="#cs" width="200" height="200" fill="url(#p5)" stroke="#531f2a" stroke-width="3"/><use href="#cs" width="200" height="200" fill="url(#sh)"/><circle cx="100" cy="100" r="6" fill="#3d1620"/></svg><b>Plum Bloom</b><span>Soft and decorative</span></div>
+      <div class="tile rv" style="--d:.1s"><svg viewBox="0 0 200 200"><ellipse cx="100" cy="184" rx="70" ry="8" fill="#000" opacity=".14"/><use href="#cs" width="200" height="200" fill="#e0ae4c" stroke="#b98a2c" stroke-width="3"/><use href="#cs" width="200" height="200" fill="url(#sh)"/><circle cx="100" cy="100" r="6" fill="#8a6418"/></svg><b>Solid Gold</b><span>Plain and refined</span></div>
+      <div class="tile rv" style="--d:.2s"><svg viewBox="0 0 200 200"><ellipse cx="100" cy="184" rx="70" ry="8" fill="#000" opacity=".14"/><use href="#cs" width="200" height="200" fill="#214644" stroke="#e0ae4c" stroke-width="5"/><use href="#cs" width="200" height="200" fill="url(#sh)"/><circle cx="100" cy="100" r="6" fill="#e0ae4c"/></svg><b>Piped Edge</b><span>Contrast trim</span></div>
+      <div class="tile rv" style="--d:.3s"><svg viewBox="0 0 200 200"><ellipse cx="100" cy="184" rx="70" ry="8" fill="#000" opacity=".14"/><circle cx="100" cy="98" r="84" fill="#b4492f"/><circle cx="100" cy="98" r="84" fill="url(#sh)"/><circle cx="100" cy="98" r="60" fill="none" stroke="#f0c8b4" stroke-width="2" stroke-dasharray="6 6"/><circle cx="100" cy="98" r="6" fill="#5e2517"/></svg><b>Round Tufted</b><span>Floor and seat</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="process">
+  <div class="wrap center">
+    <p class="eyebrow rv">How It Works</p>
+    <h2 class="rv">Simple from start to finish</h2>
+    <div class="grid g3 steps" style="text-align:left">
+      <article class="card step rv"><h3>Share your idea</h3><p>Send the size, fabric and firmness on WhatsApp, or visit us in person.</p></article>
+      <article class="card step rv" style="--d:.1s"><h3>Get a quote</h3><p>We confirm the price and delivery time before any work starts.</p></article>
+      <article class="card step rv" style="--d:.2s"><h3>Made and ready</h3><p>Your cushions are cut, stitched, filled and ready for pickup.</p></article>
+    </div>
+  </div>
+</section>
+
+<section id="workshop">
+  <div class="wrap ws">
+    <div class="rv" id="wsimg">
+      <svg viewBox="0 0 640 400" aria-label="Illustration of a tailoring table with fabric rolls, sewing machine, thread and scissors">
+        <defs><linearGradient id="tb" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#a8744a"/><stop offset="1" stop-color="#7d4f2d"/></linearGradient>
+        <pattern id="tp" width="16" height="16" patternUnits="userSpaceOnUse"><rect width="16" height="16" fill="#f3d06a"/><path d="M0 0v16" stroke="#222" stroke-width="2"/></pattern></defs>
+        <rect width="640" height="400" fill="#efe2c6"/>
+        <rect y="250" width="640" height="150" fill="url(#tb)"/>
+        <rect y="246" width="640" height="8" fill="#5e3a20"/>
+        <g transform="translate(36 70)"><rect x="0" y="0" width="60" height="180" rx="10" fill="url(#p1)"/><ellipse cx="30" cy="0" rx="30" ry="10" fill="#e8a08a"/><ellipse cx="30" cy="180" rx="30" ry="10" fill="#8c3622"/></g>
+        <g transform="translate(106 100)"><rect width="60" height="150" rx="10" fill="url(#p2)"/><ellipse cx="30" cy="0" rx="30" ry="10" fill="#3d6b67"/><ellipse cx="30" cy="150" rx="30" ry="10" fill="#142f2d"/></g>
+        <g transform="translate(176 130)"><rect width="60" height="120" rx="10" fill="url(#p3)"/><ellipse cx="30" cy="0" rx="30" ry="10" fill="#fff4de"/><ellipse cx="30" cy="120" rx="30" ry="10" fill="#c9ad78"/></g>
+        <g transform="translate(300 120)"><path d="M0 130V30h150v28h-34v28h22v44z" fill="#2a2f35"/><rect x="10" y="6" width="120" height="28" rx="10" fill="#3b4149"/><circle cx="142" cy="20" r="14" fill="#b4492f"/><rect x="92" y="58" width="6" height="44" fill="#cfd6dc"/><rect x="-20" y="130" width="200" height="12" rx="6" fill="#1d2126"/></g>
+        <g transform="translate(520 190)"><rect width="34" height="56" rx="6" fill="#e0ae4c"/><rect x="-4" y="-4" width="42" height="10" rx="4" fill="#a77c24"/><rect x="-4" y="52" width="42" height="10" rx="4" fill="#a77c24"/><path d="M4 10h26M4 20h26M4 30h26M4 40h26" stroke="#fff" stroke-opacity=".5" stroke-width="3"/></g>
+        <g transform="translate(570 210)"><rect width="30" height="36" rx="6" fill="#b4492f"/><rect x="-3" y="-3" width="36" height="8" rx="4" fill="#7d2e1c"/><path d="M4 12h22M4 22h22" stroke="#fff" stroke-opacity=".5" stroke-width="3"/></g>
+        <rect x="250" y="300" width="260" height="26" rx="4" fill="url(#tp)" transform="rotate(-3 380 313)"/>
+        <g stroke="#cfd6dc" stroke-width="7" stroke-linecap="round"><path d="M70 330l60-34M70 296l60 34"/></g>
+        <circle cx="64" cy="296" r="11" fill="none" stroke="#b4492f" stroke-width="6"/><circle cx="64" cy="332" r="11" fill="none" stroke="#b4492f" stroke-width="6"/>
+      </svg>
+    </div>
+    <div class="rv" style="--d:.15s">
+      <p class="eyebrow">The Workshop</p>
+      <h2>Cut, stitched and finished by hand</h2>
+      <p class="lead">Every cushion starts on the cutting table. We measure, cut and stitch to your size, then fill and finish it carefully.</p>
+      <ul>
+        <li><svg viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>Made to your exact measurements</li>
+        <li><svg viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>Your choice of fabric, colour and firmness</li>
+        <li><svg viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>Neat stitching and clean finishing</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="alt" id="visit">
+  <div class="wrap center">
+    <p class="eyebrow rv">Visit Us</p>
+    <h2 class="rv">Find us in Liaquatabad Town</h2>
+    <p class="lead rv">Nazimabad No. 4, Block 4, Liaquatabad Town, Karachi. Plus code W24W+RQ9, near Dak Khana.</p>
+    <div class="rv" style="margin-top:34px">
+      <a class="btn btn-brand" href="https://www.google.com/maps/search/?api=1&query=W24W%2BRQ9+Karachi" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s7-6 7-11a7 7 0 10-14 0c0 5 7 11 7 11zM12 12a2 2 0 100-4 2 2 0 000 4z"/></svg>Open in Google Maps</a>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <div class="wrap">
+    <p class="eyebrow rv">Contact</p>
+    <h2 class="rv">Tell us what you need</h2>
+    <p class="lead rv">Send your enquiry on WhatsApp for a quick quote.</p>
+    <div class="cwrap">
+      <div class="info">
+        <a class="row rv" href="tel:+923182291246"><div class="ico"><svg viewBox="0 0 24 24"><path d="M5 4h4l2 5-2.500 1.500a11 11 0 005 5L15 13l5 2v4a2 2 0 01-2 2A16 16 0 013 6a2 2 0 012-2z"/></svg></div><div><small>Call</small><b>+92 318 2291246</b></div></a>
+        <a class="row rv" style="--d:.1s" href="https://wa.me/923182291246" target="_blank" rel="noopener"><div class="ico"><svg viewBox="0 0 24 24"><path d="M4 20l1.300-4.200A8 8 0 1112 20a8 8 0 01-3.800-1zM9 9c0 3 3 6 6 6l1-1.600-2-1-1 .8c-1-.4-1.800-1.200-2.200-2.200l.8-1-1-2z"/></svg></div><div><small>WhatsApp Business</small><b>Chat with us</b></div></a>
+        <div class="row rv" style="--d:.2s"><div class="ico"><svg viewBox="0 0 24 24"><path d="M12 21s7-6 7-11a7 7 0 10-14 0c0 5 7 11 7 11zM12 12a2 2 0 100-4 2 2 0 000 4z"/></svg></div><div><small>Address</small><b>Nazimabad No. 4, Block 4, Liaquatabad Town, Karachi</b></div></div>
+        <div class="row rv" style="--d:.3s"><div class="ico"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></div><div><small>Hours</small><b>Open 24 hours</b></div></div>
+      </div>
+      <form id="f" class="rv" style="--d:.15s">
+        <div class="two">
+          <div><label for="n">Your name</label><input id="n" required autocomplete="name"></div>
+          <div><label for="p">Phone</label><input id="p" type="tel" autocomplete="tel"></div>
+        </div>
+        <div><label for="t">I need</label>
+          <select id="t"><option>Custom cushions</option><option>Sofa seat cushions</option><option>Upholstery or repair</option><option>Something else</option></select></div>
+        <div><label for="m">Size, fabric and details</label><textarea id="m"></textarea></div>
+        <button class="btn btn-brand" type="submit">Send on WhatsApp</button>
+      </form>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot">
+      <a class="brand" href="#home"><svg aria-hidden="true"><use href="#logo"/></svg><span><b>M Mohsin</b><small>CUSHION MAKER</small></span></a>
+      <span>Karachi, Pakistan &nbsp;|&nbsp; +92 318 2291246</span>
+    </div>
+    <p class="note">© <span id="y">2026</span> M Mohsin Cushion Maker. All rights reserved.</p>
+  </div>
+</footer>
+
+<a class="wa" href="https://wa.me/923182291246" target="_blank" rel="noopener" aria-label="WhatsApp">
+  <svg viewBox="0 0 24 24"><path d="M4 20l1.300-4.200A8 8 0 1112 20a8 8 0 01-3.800-1zM9 9c0 3 3 6 6 6l1-1.600-2-1-1 .8c-1-.4-1.800-1.200-2.200-2.200l.8-1-1-2z"/></svg>
+</a>
+
+<script>
+(function(){
+  var b=document.getElementById('burger'),n=document.getElementById('nav');
+  b.addEventListener('click',function(){var o=n.classList.toggle('open');b.setAttribute('aria-expanded',o)});
+  n.addEventListener('click',function(e){if(e.target.tagName==='A'){n.classList.remove('open');b.setAttribute('aria-expanded',false)}});
+  var els=document.querySelectorAll('.rv');
+  if('IntersectionObserver' in window){
+    var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{threshold:.12});
+    els.forEach(function(el){io.observe(el)});
+  }else{els.forEach(function(el){el.classList.add('in')})}
+  document.getElementById('y').textContent=new Date().getFullYear();
+  /* Optional real photos: paste image URLs here (works when you host this file yourself). Empty = built-in illustrations. */
+  var P={hero:"",workshop:"",gallery:[]};
+  function im(u,a){var i=new Image();i.src=u;i.alt=a;i.loading='lazy';i.style.cssText='width:100%;height:auto;border-radius:20px;object-fit:cover';return i}
+  if(P.hero){var h=document.querySelector('.art .sofa');if(h)h.replaceWith(im(P.hero,'Cushions made by M Mohsin Cushion Maker'))}
+  if(P.workshop){var w=document.querySelector('#wsimg svg');if(w)w.replaceWith(im(P.workshop,'Our workshop'))}
+  document.querySelectorAll('.tile svg').forEach(function(s,k){if(P.gallery[k])s.replaceWith(im(P.gallery[k],'Cushion design'))});
+  document.getElementById('f').addEventListener('submit',function(e){
+    e.preventDefault();
+    var t='Hello, I am '+document.getElementById('n').value+'. I need: '+document.getElementById('t').value+'.';
+    var m=document.getElementById('m').value,p=document.getElementById('p').value;
+    if(m)t+=' '+m;if(p)t+=' My number: '+p;
+    var a=document.createElement('a');a.href='https://wa.me/923182291246?text='+encodeURIComponent(t);a.target='_blank';a.rel='noopener';
+    document.body.appendChild(a);a.click();a.remove();
+  });
+})();
+</script>
+</body>
+</html>
